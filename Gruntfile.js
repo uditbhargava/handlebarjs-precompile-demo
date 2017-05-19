@@ -10,11 +10,17 @@ module.exports = function(grunt) {
         },
 
         watch: {
+            templates : {
+                files: ["templates/**/*.hbs", "templates/*.hbs"],
+                tasks: ['handlebars']
+            },
+
             tasks: ['handlebars']
         }
     });
 
     grunt.loadNpmTasks('grunt-contrib-handlebars');
+    grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.registerTask('default', ['handlebars']);
 
 };

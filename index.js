@@ -10,16 +10,17 @@ window.onload = function (){
 	 //var html = templateScript(context);
 	//html = 'My name is Ritesh Kumar . I am a developer.'
 	var template = JST['templates/leftbar.hbs'];
-	var html = template(context);
+	var html = template();
     Handlebars.registerPartial("leftbar", html);
     
     var template = JST['templates/right.hbs'];
-	var html2 = template(context);
+	var html2 = template();
     Handlebars.registerPartial("rightbar", html2);
     
     var template = JST['templates/main.hbs'];
-	var html3 = template();
+	var html3 = template(context);
+	document.querySelector('#result').innerHTML = html3;
     
-	$(document.body).append(html3);
+	
 }
 

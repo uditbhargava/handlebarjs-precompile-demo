@@ -1,0 +1,24 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.8/handlebars.js"></script>
+<script type="text/javascript" src="js/all.js"></script>
+<script type="text/javascript" src="index.js"></script>
+
+
+<body>
+<div id="result">
+
+</div>
+<script id="people-template" type="text/x-handlebars-template">
+ {{> person}}	
+ <div> HELLO </div>
+</script>
+
+<script id="person-partial" type="text/x-handlebars-template">
+  <div class="person">
+    <h2>{{first_name}} {{last_name}}</h2>
+    <div class="phone">{{phone}}</div>
+  </div>
+</script>
+<script>
+
+</body>

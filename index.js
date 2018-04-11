@@ -20,14 +20,14 @@ window.onload = function (){
 
 
     var context3 = { "home" : "main home"};
-    var template3 = JST['templates/poll/home.hbs'];
+    var template3 = JST['templates/home.hbs'];
     var html3 = template3(context3);
     $(document.body).append(html3);
 
 
 
     var context4 = { "report" : "student poll"};
-    var template4 = JST['templates/poll/report.hbs'];
+    var template4 = JST['templates/report.hbs'];
     var html4 = template4(context4);
     $(document.body).append(html4);
 

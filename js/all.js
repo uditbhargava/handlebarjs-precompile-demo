@@ -8,7 +8,7 @@ this["JST"]["templates/home.hbs"] = Handlebars.template({"compiler":[7,">= 4.0.0
     + container.escapeExpression(((helper = (helper = helpers.home || (depth0 != null ? depth0.home : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"home","hash":{},"data":data}) : helper)))
     + " of Poll, So what are you doing.\n</div>\n";
 },"useData":true});
-
+// comment by dev 2
 this["JST"]["templates/ppt.hbs"] = Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
 

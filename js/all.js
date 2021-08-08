@@ -2,6 +2,7 @@ this["JST"] = this["JST"] || {};
 
 this["JST"]["templates/home.hbs"] = Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var helper;
+    // comment for commit 2
 
   return "<div>\n	I am in "
     + container.escapeExpression(((helper = (helper = helpers.home || (depth0 != null ? depth0.home : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"home","hash":{},"data":data}) : helper)))

@@ -11,6 +11,7 @@ module.exports = function(grunt) {
                 }
             }
         },
+	    // comment for commit 1
 
         watch: {
 			/** the grunt is waching if any changes in .hbs files 

@@ -1,6 +1,7 @@
 module.exports = function(grunt) {
     grunt.initConfig({
         handlebars: {
+            // comment by dev 2nd commit
             all: {
 				
                 files: {
